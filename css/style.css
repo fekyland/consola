@@ -79,6 +79,7 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    
 }   
     
 
@@ -86,11 +87,17 @@
     background-color: rgb(107, 32, 27);
     border-style: groove;
     height: 30px;
-    
+    border-radius: 5px;
 }
 
 #botonA{
 
     margin-right: 10px;
 
+}
+
+.botonVacio {
+
+    background-color: black;
+    
 }
