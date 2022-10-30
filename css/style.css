@@ -101,3 +101,20 @@
     background-color: black;
     
 }
+.selectores {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 150px;
+
+}
+#botonSelector {
+
+    background-color: black;
+    border-radius: 10px;
+
+}
