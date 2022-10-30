@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     
+    
 }
 
 #bordeConsola {
@@ -15,33 +16,62 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-style: groove;
     
 }
 #pantalla {
-
+    display: flex;
     background-color: rgb(130, 192, 115);
-    width: 300px;
+    font-size: 50px;
+    border-style: groove;
+    width: 350px;
     height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+    
 
 }
 
 #controles {
     display: flex;
-    background-color: green;
     width: 500px;
     height: 130px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #contenedor_direccional{
     display: flex;
+    width: 150px;
     background-color: rgb(161, 173, 102);
-    
+    flex-direction: column;
+    flex-basis: auto;   
 }
 #contenedorBotones {
     display: flex;
     background-color: rgb(29, 63, 63);
-    
+    flex-direction: column;
+    justify-content: space-around;
+      
+}
+.botones {
+    font-size: 30px;
+    background-color: bisque;
+
 }
 
+#contenedorDireccional {
+    height: 130px;
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.direccion {
+    display:flex;
+    background-color: rgb(27, 83, 107);
+    font-size: 30px;
+    border-style: groove;
+    
+}
