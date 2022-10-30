@@ -11,7 +11,7 @@
     display: flex;
     width: 600px;
     height: 400px;
-    background-color: red;
+    background-color: rgba(110, 167, 123, 0.579);
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -19,15 +19,29 @@
 }
 #pantalla {
 
-    background-color: rgb(84, 221, 49);
+    background-color: rgb(130, 192, 115);
     width: 300px;
     height: 200px;
 
 }
 
 #controles {
-
+    display: flex;
     background-color: green;
     width: 500px;
     height: 130px;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+#contenedor_direccional{
+    display: flex;
+    background-color: rgb(161, 173, 102);
+    
+}
+#contenedorBotones {
+    display: flex;
+    background-color: rgb(29, 63, 63);
+    
+}
+
