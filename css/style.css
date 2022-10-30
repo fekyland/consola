@@ -20,8 +20,20 @@
     border-style: groove;
     
 }
+#botonPower {
+
+    display:flex;
+    flex-direction: row;
+    align-self: start;
+    background-color: darkorange;
+    border-radius: 0px 10px 10px 0px;
+    padding: 3px;
+    margin-left: 3px;
+    width: 30px;
+    height: 15px;
+}
 #pantalla {
-    border-radius: 5px;
+    border-right: 5px;
     display: flex;
     background-color: rgb(130, 192, 115);
     font-size: 50px;
@@ -106,15 +118,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
     flex-wrap: wrap;
     height: 50px;
     width: 150px;
+    border-radius: 2px;
 
 }
 #botonSelector {
-
     background-color: black;
     border-radius: 10px;
-
 }
