@@ -41,36 +41,34 @@
     justify-content: space-between;
 }
 
-#contenedor_direccional{
-    display: flex;
-    width: 150px;
-    background-color: rgb(161, 173, 102);
-    flex-direction: column;
-    flex-basis: auto;   
-}
-#contenedorBotones {
+
+
+#Botonera {
     display: flex;
     background-color: rgb(29, 63, 63);
     flex-direction: column;
     justify-content: space-around;
+
       
 }
 .botones {
     font-size: 30px;
     background-color: bisque;
+    flex-wrap: wrap;
 
 }
 
-#contenedorDireccional {
+#Direccional {
     height: 130px;
     width: 125px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 .direccion {
-    display:flex;
-    background-color: rgb(27, 83, 107);
+   
+    background-color: rgb(107, 32, 27);
     font-size: 30px;
     border-style: groove;
     
